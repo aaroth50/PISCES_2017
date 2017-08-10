@@ -11,13 +11,13 @@ Code from my 2017 summer internship at PISCES used to calibrate, rectify, and cr
 
 ## Description
 
-*dcalibstereoyaml.py*: Takes in stereo images of checkerboard patterns labeled Left_ and Right_ and creates yaml files of the stereo calibration matrices and stereo rectify matrices.
+*stereo_calib_yaml.py*: Takes in stereo images of checkerboard patterns labeled Left_ and Right_ and creates yaml files of the stereo calibration matrices and stereo rectify matrices.
 
-*dmapyaml.py*: Uses the yaml files of the stereo calibration matrices and the stereo rectify matrices to map out calibrated and rectified stereo images in a folder with images labeled Left_ and Right_
+*map_yaml.py*: Uses the yaml files of the stereo calibration matrices and the stereo rectify matrices to map out calibrated and rectified stereo images in a folder with images labeled Left_ and Right_
 
-*horizontalline.py*: Blends two images together and adds green horizontal lines. I use this to see if my stereo images rectified correctly.
+*horizontal_line.py*: Blends two images together and adds green horizontal lines. I use this to see if my stereo images rectified correctly.
 
-*3Dimage.py*: Takes in a stereo image pair and converts to a single anaglyph image.
+*anaglyph.py*: Takes in a stereo image pair and converts to a single anaglyph image.
 
 ## Images
 
