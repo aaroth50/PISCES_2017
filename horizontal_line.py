@@ -13,7 +13,7 @@ o = Image.blend(right,left,0.5)
 
 o.save("horizontal/horizontallines.jpg", "JPEG") #file location of image to see if images are horizontally aligned
 
-w, h = 0, 0
+w, h = 1, 0
 
 images = 'horizontal/horizontallines.jpg'
 
